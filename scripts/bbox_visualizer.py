@@ -47,12 +47,4 @@ def visualize_bboxes(image_path, bboxes, title="Bounding Boxes"):
 
 
 if __name__ == "__main__":
-    # Example usage
-    image_path = '/Users/abdulkadir/Documents/AIN313 Machine Learning/AIN311_Project/output/task_kam2_gh078416/scaled_images/653_cropped.jpg'
-    bboxes = [[
-                            78.20003255208333,
-                            70.193359375,
-                            102.02001953125,
-                            82.80000000000018
-                        ]]  # Example bounding boxes
     visualize_bboxes(image_path, bboxes, title="Example Bounding Boxes")
